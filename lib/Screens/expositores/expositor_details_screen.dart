@@ -1,4 +1,5 @@
 import 'package:appeventos01/Screens/expositores/agregar_nota_expositores_screen.dart';
+import 'package:appeventos01/widgets/mapa.dart';
 import 'package:flutter/material.dart';
 
 import '../asistentes/asistentes_details_screen.dart';
@@ -338,39 +339,47 @@ class ExpositorDetailsScreen extends StatelessWidget {
             const SizedBox(
               height: 5,
             ),
-            Card(
-              child: Container(
-                padding: EdgeInsets.all(4),
-                child: Row(
-                  mainAxisSize: MainAxisSize.max,
-                  crossAxisAlignment: CrossAxisAlignment.center,
-                  children: <Widget>[
-                    Padding(
-                      padding: EdgeInsets.only(right: 8),
-                      child: FadeInImage(
-                        placeholder: const AssetImage('assets/no-image.jpg'),
-                        image: NetworkImage(
-                            'https://docs.microsoft.com/es-es/azure/azure-maps/media/migrate-google-maps-web-app/google-maps-marker.png'),
-                        height: 50,
-                        width: 70,
-                        fit: BoxFit.cover,
+            GestureDetector(
+              onTap: () {
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(builder: (context) => Mapa()),
+                );
+              },
+              child: Card(
+                child: Container(
+                  padding: EdgeInsets.all(4),
+                  child: Row(
+                    mainAxisSize: MainAxisSize.max,
+                    crossAxisAlignment: CrossAxisAlignment.center,
+                    children: <Widget>[
+                      Padding(
+                        padding: EdgeInsets.only(right: 8),
+                        child: FadeInImage(
+                          placeholder: const AssetImage('assets/no-image.jpg'),
+                          image: NetworkImage(
+                              'https://docs.microsoft.com/es-es/azure/azure-maps/media/migrate-google-maps-web-app/google-maps-marker.png'),
+                          height: 50,
+                          width: 70,
+                          fit: BoxFit.cover,
+                        ),
                       ),
-                    ),
-                    Expanded(
-                      child: Column(
-                          mainAxisSize: MainAxisSize.min,
-                          mainAxisAlignment: MainAxisAlignment.center,
-                          crossAxisAlignment: CrossAxisAlignment.start,
-                          children: <Widget>[
-                            Text(
-                              'Nombre de la ubicación',
-                              style: TextStyle(
-                                fontSize: 16,
+                      Expanded(
+                        child: Column(
+                            mainAxisSize: MainAxisSize.min,
+                            mainAxisAlignment: MainAxisAlignment.center,
+                            crossAxisAlignment: CrossAxisAlignment.start,
+                            children: <Widget>[
+                              Text(
+                                'Nombre de la ubicación',
+                                style: TextStyle(
+                                  fontSize: 16,
+                                ),
                               ),
-                            ),
-                          ]),
-                    ),
-                  ],
+                            ]),
+                      ),
+                    ],
+                  ),
                 ),
               ),
             ),

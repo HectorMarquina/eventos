@@ -8,8 +8,8 @@
         android:usesCleartextTraffic="true"
         >
 
-        <!-- <meta-data android:name="com.google.android.geo.API_KEY"
-               android:value="YOUR-KEY-HERE"/> -->
+        <meta-data android:name="com.google.android.geo.API_KEY"  
+               android:value="AIzaSyBSIO3lrv-61sxLPvAzUGg6-PAUV3axLEs"/>   
         
         <activity
             android:name=".MainActivity"
