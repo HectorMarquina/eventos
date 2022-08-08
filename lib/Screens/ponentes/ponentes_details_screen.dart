@@ -53,7 +53,7 @@ class PonentesDetailsScreen extends StatelessWidget {
                   child: const CircleAvatar(
                     radius: 110,
                     backgroundImage: NetworkImage(
-                      'https://www.geekmi.news/__export/1619631525888/sites/debate/img/2021/04/28/luffy1.jpg_1339198940.jpg',
+                      'http://blog.aulaformativa.com/wp-content/uploads/2016/08/consideraciones-mejorar-primera-experiencia-de-usuario-aplicaciones-web-perfil-usuario.jpg',
                     ),
                   ),
                 ),
@@ -111,25 +111,7 @@ class PonentesDetailsScreen extends StatelessWidget {
                       onPressed: () {},
                     ),
                     IconButton(
-                      icon: const Icon(Icons.language_outlined),
-                      iconSize: 30,
-                      tooltip: 'Ir al enlace',
-                      onPressed: () {},
-                    ),
-                    IconButton(
-                      icon: const Icon(Icons.language_outlined),
-                      iconSize: 30,
-                      tooltip: 'Ir al enlace',
-                      onPressed: () {},
-                    ),
-                    IconButton(
                       icon: const Icon(Icons.facebook_outlined),
-                      iconSize: 30,
-                      tooltip: 'Ir al enlace',
-                      onPressed: () {},
-                    ),
-                    IconButton(
-                      icon: const Icon(Icons.language_outlined),
                       iconSize: 30,
                       tooltip: 'Ir al enlace',
                       onPressed: () {},
@@ -166,7 +148,7 @@ class PonentesDetailsScreen extends StatelessWidget {
                     height: 15,
                   ),
                   Text(
-                    ' Toda la descripción del ponente va insertada aquí. Toda la descripción del ponente va insertada aquí. Toda la descripción del ponente va insertada aquí. Toda la descripción del ponente va insertada aquí. Toda la descripción del ponente va insertada aquí. Toda la descripción del ponente va insertada aquí. Toda la descripción del ponente va insertada aquí. Toda la descripción del ponente va insertada aquí. Toda la descripción del ponente va insertada aquí. Toda la descripción del ponente va insertada aquí. Toda la descripción del ponente va insertada aquí. Toda la descripción del ponente va insertada aquí. Toda la descripción del ponente va insertada aquí. Toda la descripción del ponente va insertada aquí. Toda la descripción del ponente va insertada aquí. Toda la descripción del ponente va insertada aquí. Toda la descripción del ponente va insertada aquí. Toda la descripción del ponente va insertada aquí. ',
+                    ' Toda la descripción del ponente va insertada aquí. Toda la descripción del ponente va insertada aquí. Toda la descripción del ponente va insertada aquí. Toda la descripción del ponente va insertada aquí. Toda la descripción del ponente va insertada aquí. Toda la descripción del ponente va insertada aquí. Toda la descripción del ponente va insertada aquí. Toda la descripción del ponente va insertada aquí. Toda la descripción del ponente va insertada aquí. Toda la descripción del ponente va insertada aquí. ',
                     textAlign: TextAlign.justify,
                     style: Theme.of(context).textTheme.subtitle1,
                   ),

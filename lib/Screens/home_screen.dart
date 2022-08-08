@@ -87,7 +87,8 @@ class _CustomAppBar extends StatelessWidget {
         ),
         background: const FadeInImage(
           placeholder: AssetImage('assets/loading.gif'),
-          image: NetworkImage('https://via.placeholder.com/300x400'),
+          image: NetworkImage(
+              'https://ciep.mx/wp-content/uploads/2019/09/placeholder.png'),
 
           //fit para expandirla sin perder las dimensiones de la imagen
           fit: BoxFit.cover,
@@ -124,7 +125,8 @@ class _PatrocinadoresPlatinoPic extends StatelessWidget {
               // borderRadius: BorderRadius.circular(20),
               child: const FadeInImage(
                 placeholder: AssetImage('assets/loading.gif'),
-                image: NetworkImage('https://via.placeholder.com/300x400'),
+                image: NetworkImage(
+                    'https://ciep.mx/wp-content/uploads/2019/09/placeholder.png'),
                 width: 89,
                 height: 60,
                 fit: BoxFit.cover,

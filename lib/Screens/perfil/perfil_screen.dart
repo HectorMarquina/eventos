@@ -53,7 +53,7 @@ class PerfilScreen extends StatelessWidget {
                   child: const CircleAvatar(
                     radius: 110,
                     backgroundImage: NetworkImage(
-                      'https://www.geekmi.news/__export/1619631525888/sites/debate/img/2021/04/28/luffy1.jpg_1339198940.jpg',
+                      'https://cdn-icons-png.flaticon.com/512/17/17004.png',
                     ),
                   ),
                 ),

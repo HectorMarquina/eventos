@@ -343,7 +343,10 @@ class ExpositorDetailsScreen extends StatelessWidget {
               onTap: () {
                 Navigator.push(
                   context,
-                  MaterialPageRoute(builder: (context) => Mapa()),
+                  MaterialPageRoute(
+                      builder: (context) => Mapa(
+                            title: '',
+                          )),
                 );
               },
               child: Card(

@@ -24,7 +24,7 @@ class ChatScreen extends StatelessWidget {
                   ListView.builder(
                     padding: EdgeInsets.zero,
                     shrinkWrap: true,
-                    physics: NeverScrollableScrollPhysics(),
+                    physics: BouncingScrollPhysics(),
                     itemCount: items.length,
                     itemBuilder: (context, index) {
                       return Column(

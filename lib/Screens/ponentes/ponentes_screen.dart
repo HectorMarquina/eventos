@@ -45,7 +45,7 @@ class PonentesScreen extends StatelessWidget {
                   leading: const CircleAvatar(
                     radius: 30.0,
                     backgroundImage: NetworkImage(
-                        'https://www.geekmi.news/__export/1619631525888/sites/debate/img/2021/04/28/luffy1.jpg_1339198940.jpg'),
+                        'https://cdn-icons-png.flaticon.com/512/17/17004.png'),
                     backgroundColor: Colors.transparent,
                   ),
                   trailing: const Icon(Icons.arrow_forward_ios_outlined),
