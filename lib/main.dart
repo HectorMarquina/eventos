@@ -1,5 +1,4 @@
-import 'package:appeventos01/Screens/home_screen.dart';
-import 'package:appeventos01/Screens/videos/splash_screen.dart';
+import 'package:appeventos01/widgets/splash_screen.dart';
 import 'package:flutter/material.dart';
 
 void main() => runApp(MyApp());

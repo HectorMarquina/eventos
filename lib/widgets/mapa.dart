@@ -116,7 +116,7 @@ import 'dart:ui';
 import 'package:flutter/material.dart';
 import 'package:google_maps_flutter/google_maps_flutter.dart';
 
-import '../Screens/expositores/expositor_details_screen.dart';
+import '../modules/expositores/screens/components/expositor_details_screen.dart';
 
 class Mapa extends StatefulWidget {
   Mapa({Key? key, required this.title}) : super(key: key);

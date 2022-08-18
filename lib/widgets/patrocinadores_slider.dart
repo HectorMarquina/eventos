@@ -1,5 +1,6 @@
-import 'package:appeventos01/Screens/patrocinadores/patrocinadores_details_screen.dart';
 import 'package:flutter/material.dart';
+
+import '../modules/patrocinadores/screens/components/patrocinadores_details_screen.dart';
 
 class PatrocinadoresSliderScreen extends StatelessWidget {
   const PatrocinadoresSliderScreen({Key? key}) : super(key: key);

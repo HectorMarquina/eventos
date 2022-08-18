@@ -1,26 +1,25 @@
 import 'dart:ui';
-import 'package:appeventos01/Screens/agenda/agenda_screen.dart';
-import 'package:appeventos01/Screens/galeria/home_page.dart';
+
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import '../Screens/asistentes/asistentes_screen.dart';
-import '../Screens/chat/chat_screen.dart';
-import '../Screens/encuestas/encuestas_screen.dart';
-import '../Screens/expositores/expositores_screen.dart';
-import '../Screens/galeria/galeria_screen.dart';
-import '../Screens/matching/matching_screen.dart';
-import '../Screens/mensajeria/mensajes_screen.dart';
-import '../Screens/notificaciones/notificaciones_screen.dart';
-import '../Screens/patrocinadores/patrocinadores_screen.dart';
-import '../Screens/ponentes/ponentes_screen.dart';
-import '../Screens/posters/posters_screen.dart';
-import '../Screens/preguntas_ponente/preguntas_ponente.dart';
-import '../Screens/twitter_wall/twitter_wall_screen.dart';
-import '../Screens/videos/clips.dart';
-import '../Screens/videos/home_screen.dart';
-import '../Screens/videos/play_page.dart';
-import '../Screens/videos/videos_screen.dart';
-import '../Screens/votaciones/votaciones_screen.dart';
+
+import '../modules/agenda/screens/agenda_screen.dart';
+import '../modules/asistentes/screens/asistentes_screen.dart';
+import '../modules/chat/screens/chat_screen.dart';
+import '../modules/encuestas/screens/encuestas_screen.dart';
+import '../modules/expositores/screens/expositores_screen.dart';
+import '../modules/galeria/home_page.dart';
+import '../modules/matching/screens/matching_screen.dart';
+import '../modules/mensajeria/screens/mensajes_screen.dart';
+import '../modules/notificaciones/screens/notificaciones_screen.dart';
+import '../modules/patrocinadores/screens/patrocinadores_screen.dart';
+import '../modules/ponentes/screens/ponentes_screen.dart';
+import '../modules/posters/screens/posters_screen.dart';
+import '../modules/preguntas_ponente/screens/preguntas_ponente.dart';
+import '../modules/twitter_wall/screens/twitter_wall_screen.dart';
+import '../modules/videos/clips.dart';
+import '../modules/videos/play_page.dart';
+import '../modules/votaciones/screens/votaciones_screen.dart';
 
 void main() {
   runApp(const GridMenu());
