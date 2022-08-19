@@ -1,7 +1,7 @@
 import 'package:appeventos01/widgets/menu2.dart';
 import 'package:flutter/material.dart';
 import '../kernel/config/drawer_navigation.dart';
-import '../modules/patrocinadores/screens/components/patrocinadores_details_screen.dart';
+import '../modules/sponsors/screens/components/patrocinadores_details_screen.dart';
 import 'home_menu.dart';
 
 class HomeScreen extends StatelessWidget {

@@ -1,8 +1,8 @@
-import 'package:appeventos01/modules/matching/screens/components/matching_de_interesados_en_mi_screen.dart';
-import 'package:appeventos01/modules/matching/screens/components/matching_de_mi_interes_screen.dart';
+import 'package:appeventos01/modules/matching/screens/components/matching_of_my_interest_screen.dart';
 import 'package:flutter/material.dart';
 
 import '../../../kernel/config/drawer_navigation.dart';
+import 'components/matching_interested_in_me_screen.dart';
 
 class MatchingScreen extends StatelessWidget {
   const MatchingScreen({Key? key}) : super(key: key);

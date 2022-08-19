@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-import '../../../asistentes/screens/components/enviar_mensaje.dart';
-import 'agregar_nota_posters.dart';
+import 'add_note_posters.dart';
 
 class PostersDetailsScreen extends StatelessWidget {
   const PostersDetailsScreen({Key? key}) : super(key: key);
@@ -133,11 +132,11 @@ class PostersDetailsScreen extends StatelessWidget {
             ElevatedButton.icon(
               style: ElevatedButton.styleFrom(primary: Colors.blueGrey),
               onPressed: () {
-                Navigator.push(
-                  context,
-                  MaterialPageRoute(
-                      builder: (context) => const EnviarMensajeScreen()),
-                );
+                // Navigator.push(
+                //   context,
+                //   MaterialPageRoute(
+                //       builder: (context) => const EnviarMensajeScreen()),
+                // );
               },
               label: Text('¿¿¿¿????'),
               icon: Icon(Icons.send_outlined),

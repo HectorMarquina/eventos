@@ -3,23 +3,23 @@ import 'dart:ui';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
-import '../modules/agenda/screens/agenda_screen.dart';
-import '../modules/asistentes/screens/asistentes_screen.dart';
+import '../modules/attendees/screens/attendees_screen.dart';
 import '../modules/chat/screens/chat_screen.dart';
-import '../modules/encuestas/screens/encuestas_screen.dart';
-import '../modules/expositores/screens/expositores_screen.dart';
-import '../modules/galeria/home_page.dart';
+import '../modules/exhibitors/screens/exhibitors_screen.dart';
+import '../modules/galery/home_page.dart';
 import '../modules/matching/screens/matching_screen.dart';
-import '../modules/mensajeria/screens/mensajes_screen.dart';
-import '../modules/notificaciones/screens/notificaciones_screen.dart';
-import '../modules/patrocinadores/screens/patrocinadores_screen.dart';
-import '../modules/ponentes/screens/ponentes_screen.dart';
+import '../modules/messages/screens/messages_screen.dart';
+import '../modules/notifications/screens/notifications_screen.dart';
 import '../modules/posters/screens/posters_screen.dart';
-import '../modules/preguntas_ponente/screens/preguntas_ponente.dart';
+import '../modules/questions_speaker/screens/questions_speaker_screen.dart';
+import '../modules/schedule/screens/schedule_screen.dart';
+import '../modules/speakers/screens/speakers_screen.dart';
+import '../modules/sponsors/screens/sponsors_screen.dart';
+import '../modules/surveys/screens/surveys_screen.dart';
 import '../modules/twitter_wall/screens/twitter_wall_screen.dart';
 import '../modules/videos/clips.dart';
 import '../modules/videos/play_page.dart';
-import '../modules/votaciones/screens/votaciones_screen.dart';
+import '../modules/votes/screens/votes_screen.dart';
 
 void main() {
   runApp(const GridMenu());
@@ -234,7 +234,7 @@ class GridMenu extends StatelessWidget {
                 Navigator.push(
                   context,
                   MaterialPageRoute(
-                      builder: (context) => const AsistentesScreen()),
+                      builder: (context) => const AttendeesScreen()),
                 );
               },
               child: const _SigleCard(
